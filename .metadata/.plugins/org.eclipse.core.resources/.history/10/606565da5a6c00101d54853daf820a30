@@ -1,0 +1,25 @@
+package com.coforge.training.springcore;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+/**
+ * Spring Program to demonstrate Dependency Injection using Constructor
+ *
+ */
+public class EmployeeApp 
+{
+    public static void main( String[] args )
+    {
+    	/* Central Interface to provide configuration for Spring Application.
+        It is responsible for instantiating, wiring,configuring & managing life cycle of Objects
+         Implements Spring IOC */
+    	
+    	ApplicationContext context=new ClassPathXmlApplicationContext("EmployeeConfig.xml")
+        System.out.println( "Hello World!" );
+    }
+}

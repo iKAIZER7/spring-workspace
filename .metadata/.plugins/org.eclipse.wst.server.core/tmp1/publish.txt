@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Jul 31 14:14:05 IST 2025
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Vivek.Patel\\.m2\\repository\\org\\springframework\\spring-web\\6.1.14\\spring-web-6.1.14.jar=C\:\\Users\\Vivek.Patel\\Downloads\\apache-tomcat-10.1.43\\apache-tomcat-10.1.43\\apache-tomcat-10.1.36\\wtpwebapps\\spring-web\\WEB-INF\\lib\\spring-web-6.1.14.jar
+org.eclipse.jst.jee.server\:spring-web=C\:\\Users\\Vivek.Patel\\Downloads\\apache-tomcat-10.1.43\\apache-tomcat-10.1.43\\apache-tomcat-10.1.36\\wtpwebapps\\spring-web

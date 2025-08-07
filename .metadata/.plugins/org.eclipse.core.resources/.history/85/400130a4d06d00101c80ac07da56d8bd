@@ -1,0 +1,20 @@
+package com.coforge.training.springweb.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+/**
+* Author :Vivek.Patel
+* Date   :Jul 31, 2025
+* Time   :10:02:48 AM
+* Project:spring-web
+*/
+@Controller
+public class LoginController {
+	
+	@GetMapping("/login")
+	public String showLoginForm() {
+		return "login";
+	}
+
+}

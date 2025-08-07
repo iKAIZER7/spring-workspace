@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+     <!-- Create Employee Objects.
+
+  IOC - Creation of objects is out sourced to XML file. -->
+
+  <bean id="emp1" class="com.coforge.training.springcoe.model.Employee">
+
+  <!-- Dependency Injection using Constructor -->
+
+  <constructor-arg value="1111" type="int"></constructor-arg>
+
+  <constructor-arg value="Rod Johnson" type="String"></constructor-arg>
+
+  <constructor-arg value="50000" type="double"></constructor-arg>
+
+  <bean id="emp2" class="com.coforge.training.springcoe.model.Employee">
+
+
+
+  <!-- Dependency Injection using Constructor -->
+
+  <constructor-arg value="2222" type="int"></constructor-arg>
+
+  <constructor-arg value="Jeurgen Holler" type="String"></constructor-arg>
+
+  <constructor-arg value="45000" type="double"></constructor-arg>
+
+  </bean>
+
+
+  </bean>
+
+</beans>

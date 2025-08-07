@@ -1,0 +1,50 @@
+package com.coforge.training.springcore.model;
+
+/**
+* Author :Vivek.Patel
+* Date   :Jul 29, 2025
+* Time   :3:26:30 PM
+* Project:spring-core
+*/
+//Setter Injection with dependent Object
+public class Address {
+	private String addressLine,city,state,country;
+
+	@Override
+	public String toString() {
+		return "Address [addressLine1=" + addressLine + ", city=" + city + ", state=" + state + ", country=" + country
+				+ "]";
+	}
+
+	public String getAddressLine1() {
+		return addressLine;
+	}
+
+	public void setAddressLine1(String addressLine) {
+		this.addressLine = addressLine;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+}
