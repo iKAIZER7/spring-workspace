@@ -1,0 +1,26 @@
+package com.coforge.training.springcore;
+
+/**
+* Author :Vivek.Patel
+* Date   :Jul 29, 2025
+* Time   :3:22:13 PM
+* Project:spring-core
+*/
+/*
+ * Spring App to demonstrate DI using Setter Method with XMl Config
+ */
+public class StudentApp {
+public static void main(String[] args) {
+	ApplicationContext context=new ClassPathXmlApplicationContext("StudentConfig.xml");
+
+	//Get the Student Bean/Object from xml file
+	Student s1=(Student) context.getBean("student1");
+	Student s2=(Student) context.getBean("student2");
+	
+	System.out.println("************ Student Details **************");
+	System.out.println(s1.getRollNo()+" "+s1.getName()+" "+s1.getCollege()+" "+s1.getMarks());
+	System.out.println(s2.getRollNo()+" "+s2.getName()+" "+s2.getCollege()+" "+s2.getMarks());
+	
+	((ClassPathXmlApplicationContext) context).close();
+}
+}

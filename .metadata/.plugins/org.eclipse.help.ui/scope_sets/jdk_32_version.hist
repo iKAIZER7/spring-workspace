@@ -1,0 +1,8 @@
+#Thu Jul 31 10:15:14 IST 2025
+__DEFAULT__=false
+expression=jdk version
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
+org.hibernate.eclipse.help.HibernateWiki.master=true
+org.jboss.tools.developer.search.master=true

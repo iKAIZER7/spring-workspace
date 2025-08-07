@@ -1,0 +1,12 @@
+package com.coforge.training.springweb.model;
+
+/**
+* Author :Vivek.Patel
+* Date   :Jul 31, 2025
+* Time   :12:07:52 PM
+* Project:spring-web
+*/
+
+public class Reservation {
+
+}

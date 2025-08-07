@@ -1,0 +1,12 @@
+package com.coforge.training.springcore.model;
+
+/**
+* Author :Vivek.Patel
+* Date   :Jul 29, 2025
+* Time   :2:14:56 PM
+* Project:spring-core
+*/
+
+public class Employee {
+
+}
